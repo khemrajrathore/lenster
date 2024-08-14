@@ -13,6 +13,7 @@ export const config = {
   unstable_runtimeJS: false
 };
 
+// dummy
 export async function getServerSideProps(context: GetServerSidePropsContext) {
   const id = context.params?.id;
 
