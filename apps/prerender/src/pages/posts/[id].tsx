@@ -13,6 +13,7 @@ export const config = {
   unstable_runtimeJS: false
 };
 
+// dummy
 export async function getServerSideProps(context: GetServerSidePropsContext) {
   const id = context.params?.id;
 
@@ -47,6 +48,7 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
           customFilters: [CustomFiltersTypes.Gardeners],
           commentsOfOrdering: CommentOrderingTypes.Ranking,
           commentsRankingFilter: CommentRankingFilter.Relevant,
+          firstName: CommentRankingFilter.firstName,
           limit: 30
         },
         reactionRequest,
