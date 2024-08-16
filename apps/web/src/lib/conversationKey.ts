@@ -8,6 +8,8 @@ const CONVERSATION_KEY_RE = /^(.*)\/lens\.dev\/dm\/(.*)-(.*)$/;
  * @param peerAddress The peer address of the user
  * @param conversationId The conversation id
  * @returns The conversation key
+
+ 
  */
 export const buildConversationKey = (
   peerAddress: string,
